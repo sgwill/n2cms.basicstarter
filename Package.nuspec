@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>N2CMS.BasicStarter</id>
-    <version>0.1.0</version>
+    <version>0.1.1</version>
     <authors>Sam Williamson</authors>
     <owners>Sam Williamson</owners>
     <licenseUrl>https://github.com/sgwill/n2cms.basicstarter/blob/master/LICENSE</licenseUrl>
@@ -15,7 +15,7 @@
     <tags>N2 CMS</tags>
     <dependencies>
       <dependency id="N2CMS" version="2.5.10" />
-      <dependency id="N2CMS.Config" version="2.5.1" />
+      <dependency id="N2CMS.Config" version="2.5.2" />
       <dependency id="N2CMS.Library" version="2.5.10" />
       <dependency id="N2CMS.Management" version="2.5.10" />
       <dependency id="N2CMS.Razor" version="2.5.10" />
