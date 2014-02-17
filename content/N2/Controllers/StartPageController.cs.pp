@@ -38,11 +38,11 @@ namespace $rootnamespace$.N2.Controllers
             Dictionary<string, ContentItem> items = new Dictionary<string, ContentItem>();
 
             // Get Start page
-            EngineAngel.N2.Models.Pages.StartPage currentStartPage;
-            if (CurrentItem is EngineAngel.N2.Models.Pages.StartPage)
-                currentStartPage = CurrentItem as EngineAngel.N2.Models.Pages.StartPage;
+            $rootnamespace$.N2.Models.Pages.StartPage currentStartPage;
+            if (CurrentItem is $rootnamespace$.N2.Models.Pages.StartPage)
+                currentStartPage = CurrentItem as $rootnamespace$.N2.Models.Pages.StartPage;
             else
-                currentStartPage = Find.EnumerateParents(Find.CurrentPage).ToList().FirstOrDefault(IsCurrentStartPage) as EngineAngel.N2.Models.Pages.StartPage;
+                currentStartPage = Find.EnumerateParents(Find.CurrentPage).ToList().FirstOrDefault(IsCurrentStartPage) as $rootnamespace$.N2.Models.Pages.StartPage;
 
             var item = Engine.Persister.Get(id);
             var lg = Engine.Resolve<LanguageGatewaySelector>().GetLanguageGateway(item);
@@ -73,6 +73,6 @@ namespace $rootnamespace$.N2.Controllers
 
             return Content(sb.ToString());
         }
-        Func<ContentItem, bool> IsCurrentStartPage = a => a is EngineAngel.N2.Models.Pages.StartPage;
+        Func<ContentItem, bool> IsCurrentStartPage = a => a is $rootnamespace$.N2.Models.Pages.StartPage;
     }
 }
