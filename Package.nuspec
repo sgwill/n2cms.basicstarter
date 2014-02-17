@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>N2CMS.BasicStarter</id>
+    <version>0.1.0</version>
+    <authors>Sam Williamson</authors>
+    <owners>Sam Williamson</owners>
+    <licenseUrl>https://github.com/sgwill/n2cms.basicstarter/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/sgwill/n2cms.basicstarter</projectUrl>
+    <iconUrl>http://n2cms.com/Upload/logo-5.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This package installs N2 CMS and creates a basic N2CMS site with support for multiple language roots.</description>
+    <releaseNotes>Intial package - dependencies only</releaseNotes>
+    <copyright>Copyright 2014</copyright>
+    <tags>N2 CMS</tags>
+    <dependencies>
+      <dependency id="N2CMS" version="2.5.10" />
+      <dependency id="N2CMS.Config" version="2.5.1" />
+      <dependency id="N2CMS.Library" version="2.5.10" />
+      <dependency id="N2CMS.Management" version="2.5.10" />
+      <dependency id="N2CMS.Razor" version="2.5.10" />
+      <dependency id="N2CMS.ReusableParts" version="2.5.10" />
+      <dependency id="N2CMS.Search.Lucene" version="2.5.10" />
+    </dependencies>
+  </metadata>
+</package>
