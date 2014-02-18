@@ -23,15 +23,13 @@
 			<nav class="navbar-default panel" role="navigation">
 				<ul class="nav nav-pills nav-justified">
 					<li class="@active"><a href="@currentStartPage.Url">@currentStartPage.Title</a></li>
-                     @foreach ($rootnamespace$.N2.Models.Pages.ContentPage baseItem in currentStartPage.GetChildren<$rootnamespace$.N2.Models.Pages.ContentPage>().Where(a => a.Visible && a.ShowInTopNavigation))
+                     @foreach ($rootnamespace$.N2.Models.Pages.ContentPage baseItem in currentStartPage.GetChildren<$rootnamespace$.N2.Models.Pages.ContentPage>().Where(a => a.Visible))
                      {
                          active = Find.CurrentPage == baseItem ? "active" : "";
 					    <li class="@active"><a href="@baseItem.Url">@baseItem.Title</a></li>
                      }
 				</ul>			
 			</nav>
-            <p class="text-center">© Angel Enterprise Systems, Inc. All rights reserved.</p>
-            <p class="text-center">Created By: Angel Development</p>
         </div>
     </div>
 </div>		

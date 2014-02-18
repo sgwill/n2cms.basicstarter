@@ -1,0 +1,11 @@
+<configuration>
+	<connectionStrings>
+		<add name="N2CMS" connectionString="Data Source=DATA-SOURCE-HERE;Initial Catalog=N2;User Id=USER-HERE;Password=PWD-HERE" providerName="System.Data.SqlClient" />
+	</connectionStrings>
+  
+  <n2 xmlns="http://n2cms.com/schemas/configuration/v3">
+    <host rootID="1" startPageID="2" multipleSites="true">
+      <web extension="" />
+    </host>
+  </n2>
+</configuration>
