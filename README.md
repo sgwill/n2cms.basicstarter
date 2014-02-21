@@ -25,3 +25,7 @@ Install-Package N2CMS.BasicStarter
 4. Disable Installation config
 
 If you didn't add sample data, when the site comes up, right click on "Start Page" and add a start page.
+
+##### Next steps, ish
+
+Roughly speaking, the next addition will be droppable zones.
