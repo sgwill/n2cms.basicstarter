@@ -1,6 +1,14 @@
 n2cms.basicstarter
 ==================
 
+You can install using nuget
+
+```
+Install-Package N2CMS.BasicStarter
+```
+
+[Url on Nuget](http://www.nuget.org/packages/N2CMS.BasicStarter/)
+
 ##### Instructions for the N2 CMS Basic Starter
 
 1. Update N2CMS Connection string to point to DB
